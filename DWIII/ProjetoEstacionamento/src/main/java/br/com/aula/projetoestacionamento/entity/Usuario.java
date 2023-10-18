@@ -35,7 +35,7 @@ public class Usuario implements Serializable {
     private String modificadoPor;
 
     public enum Role {
-        ROLE_ADMIN, ROLE_CLIENTE
+        ROLE_ADMIN, ROLE_CLIENTE, ROLE_VICTOR
     }
 
     @Override
